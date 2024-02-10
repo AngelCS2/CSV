@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-image: url('background5.jpg'); /* Replace with the path to your chosen background photo */
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white; /* Set text color to white for better visibility on the background */
+}
+
+.teddy-bear {
+    text-align: center;
+    padding-top: 0px; /* Adjust the padding to raise the entire teddy bear section */
+}
+
+img {
+    width: 100px; /* Adjust the width to make the teddy bear smaller */
+}
+
+.text-content {
+    margin-top: 20px; /* Adjust the margin to separate the text from the teddy bear */
+}
+
+button {
+    background-color: #ff6666; /* Red button color */
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px; /* Add margin to space out the buttons */
+}
