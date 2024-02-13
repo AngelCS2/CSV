@@ -6,4 +6,9 @@ function showMessage(isYes) {
     } else {
         messageContainer.innerText = "Daca vezi asta inseamna ca pana la urma am iesit castigator :)) dar cu ce pret. Imi pare rau pentru toate serile in care ne-am certat din cauza mea si a geloziilor mele, am o personalitate posesiva si controlativa stiu si mi pare rau ca te-am facut sa te simti asa cum te-ai simtit in acele serii, imi pare rau pt fiecare lacrima ce a cazut din ochisorul ingerasului meu si fiecare moment cand te-ai simtit in pericol/dezgustata sau speriata, vreau doar sa stii ca te iubesc enorm de mult si iti urez un posibil ultim happy valentine's impreuna avand in vedere ca citesti acest mesaj, ori asta ori......te tii de glume sau ai apasat doar de curiozitate, oricum ar fii sa stii ca TEIUBESCCCCCCCCC";
     }
+function hideButton(buttonId) {
+    const button = document.getElementById(buttonId);
+
+    // Hide the button
+    button.style.display = 'none';
 }
